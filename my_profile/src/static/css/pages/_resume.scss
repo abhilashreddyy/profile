@@ -86,19 +86,30 @@
 	h4 {
 		font-weight: normal;
 	}
-
 	.degree {
-		margin-bottom: .1em;
+		
+		margin-bottom: 1em;
 		text-transform: none;
 		letter-spacing: 0.16em;
 		font-size: .8em;
 	}
+	.degree-content{
+		
+		display: inline-block;
+		width: 100%;
 
-	.school {
-		text-transform: none;
-		padding-top: 0.3em;
-		margin-bottom: 1em;
+		.school {
+			
+			float : left;
+			text-transform: none;
+			
+		}
+		#date {
+			font-size: 10px;
+			float: right;
+		}
 	}
+	
 }
 
 .courses .course-number {

@@ -1,6 +1,6 @@
 const aboutMeContent = [
     {
-        title: 'Education1',
+        title: 'Education',
         points: [
           'bla bla bla',
           'bleh bleh bleh',

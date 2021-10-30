@@ -1,15 +1,17 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'Arizona State University',
+    degree: 'M.S. Computer Science',
+    link: 'https://www.asu.edu/',
+    start_date: "Aug 2021",
+    end_date : "Apr 2023"
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Savitribai Phule Pune University',
+    degree: 'B.E Computer Science',
+    link: 'http://www.unipune.ac.in/',
+    start_date : "Jun 2015",
+    end_date: "Jun 2019"
   },
 ];
 
