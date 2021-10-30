@@ -1,0 +1,24 @@
+#aboutme{
+
+    .link-to {
+		position: relative;
+		top: -4.5em;
+	}
+
+    .descreptioncard {
+        .title{
+            margin-bottom: 2em;
+            h3{
+                font-size: 1.2em
+            }
+        }
+        .points {
+            li {
+                margin: 1em;
+                padding: 0;
+                    font-size: .9em;
+            }
+        }
+    }
+
+}

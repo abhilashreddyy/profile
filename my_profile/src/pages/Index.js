@@ -3,28 +3,43 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FaUserGraduate } from '@fortawesome/react-fontawesome'
+import { faUserGraduate, faBriefCase } from "@fortawesome/free-solid-svg-icons";
+
+import Descreption from '../components/Misc/DescreptionCard'
+import aboutMeContent from "../data/aboutme/content";
+
+
 const Index = () => (
   <Main
-    description={"Abhilash Reddy Yammanuru\'s from Arizona State University."}
+    description={"Abhilash Reddy Yammanuru's from Arizona State University."}
   >
+
+
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/">About this site</Link></h2>
-          <p>
-            A beautiful, responsive, statically-generated,
-            react application written with modern Javascript.
-          </p>
+          <h2 data-testid="heading"><Link to="/">About Me</Link></h2>
+          
         </div>
       </header>
-      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-        or you can check out my {' '}
-        <Link to="/resume">resume</Link>, {' '}
-        <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
+      <p>  Hi, I&apos;m Abhilash a Masters in Computer Science Student at Arizona State University. I like developing Software applications and anything that involves Artificial Intelligence exites me
+        {/* <Link to="/resume">resume</Link> */} 
       </p>
-      <p> Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
+      <article>
+        Work<FontAwesomeIcon icon={ faUserGraduate } size="2x"/>
+        
+      </article>
+      <article>
+      Education<FontAwesomeIcon icon={ faUserGraduate } size="2x"/>
+      </article>
+      
+      
+      <Descreption data={aboutMeContent} />
+
+      
     </article>
   </Main>
 );

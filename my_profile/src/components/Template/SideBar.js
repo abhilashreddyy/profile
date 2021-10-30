@@ -17,20 +17,10 @@ const SideBar = () => (
       </header>
     </section>
 
-    <section className="blurb">
-      <h2>About</h2>
-      <p>Hi, I&apos;m Abhilash.
-      </p>
-      <ul className="actions">
-        <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
-        </li>
-      </ul>
-    </section>
+    
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Abhilash Reddy Y<Link to="/">mldangelo.com</Link>.</p>
     </section>
   </section>
 );
