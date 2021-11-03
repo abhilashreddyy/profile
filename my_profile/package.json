@@ -2,7 +2,7 @@
   "name": "my_profile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abhilashreddyy.github.io/profile",
+  "homepage": "./",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
