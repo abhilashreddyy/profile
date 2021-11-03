@@ -1,5 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+// import ReactHtmlParser from "react-html-parser";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUserGraduate, faBriefCase } from "@fortawesome/free-solid-svg-icons";
 
 
 const Descreption = ({ data }) => (
@@ -11,11 +15,12 @@ const Descreption = ({ data }) => (
         
         <article>
             <div className="title">
-                <h3>{eachData.title}</h3>
+            <h3>{eachData.title}</h3>
             </div>
             <ul className="points">
                 {eachData.points.map((point) => (
-                    <li key={point}>{point}</li>
+                    <li key={point}><div dangerouslySetInnerHTML={{ __html: point }}></div></li>
+                    
                 ))}
             </ul>
         </article>

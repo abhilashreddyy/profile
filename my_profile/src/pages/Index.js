@@ -28,17 +28,17 @@ const Index = () => (
       <p>  Hi, I&apos;m Abhilash a Masters in Computer Science Student at Arizona State University. I like developing Software applications and anything that involves Artificial Intelligence exites me
         {/* <Link to="/resume">resume</Link> */} 
       </p>
-      <article>
+      {/* <article>
         Work<FontAwesomeIcon icon={ faUserGraduate } size="2x"/>
         
       </article>
       <article>
       Education<FontAwesomeIcon icon={ faUserGraduate } size="2x"/>
       </article>
-      
+       */}
       
       <Descreption data={aboutMeContent} />
-
+      <p>Feel free to explore the website to know more about me :-)</p>
       
     </article>
   </Main>
