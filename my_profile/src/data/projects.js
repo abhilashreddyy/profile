@@ -1,47 +1,43 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
+    title: 'Neural Style Transfer',
     subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    image: '/images/projects/NST.jpg',
+    link: 'https://github.com/abhilashreddyy/Neural-Style-Transfer',
+    date: 'Jun-Aug 2021',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Built an NST model which can generate artistic images by combining texture from one image into another using VGG-19 CNN as a base neural network'
+      + '. Just a project which is built out of curiosity'
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
+    title: 'K Nearest Neighbour Optmization',
+    link: 'https://github.com/abhilashreddyy/K-Nearest-Neighbour-Optimization',
+    image: '/images/projects/KNN_kdtree.png',
     date: '2015-09-20',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+    "Optimized and parallelized the execution of Statistical Algorithm (KNN) Algorithm using K-Dimensional. "
+    +"Trees, K-means clustering, and queues. "
+    + "Reduced the time complexity from O(N^2) to O(log N)."
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Self Driving Car',
+    subtitle: 'A Reinforcement Learning bot that travels over google maps Image',
+    link: 'https://github.com/abhilashreddyy/Self-Driving-car-using-Reinforcenent-Learning',
+    image: '/images/projects/self_driving_car.jpg',
+    date: 'Jan-Mar 2020',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      "Trained a Reinforcement Learning agent to drive on google maps Image using Deep learning and advanced RL algorithms like"
+      +"Deep Q-learning and TD3.",
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'Kaggle Competition Commonlit Text Readability',
+    image: '/images/projects/commonlit_readability.png',
+    link: 'https://www.kaggle.com/abhilashreddyy/a-deeper-eda-on-pos-tags-topic-modelling-more',
+    date: 'Mar-May 2021',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Trained a Distil BERT model to predict the readability of text'
+      + 'Analysed & preprocessed text data, generated visualizations from Exploratory Data Analysis and Data Mining Techniques'
   },
 ];
 
